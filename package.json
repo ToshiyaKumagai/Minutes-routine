@@ -1,0 +1,12 @@
+{
+  "name": "henry-minutes-routine",
+  "private": true,
+  "version": "0.1.0",
+  "description": "導入議事録DB の完了をトリガーに、案件 Slack へ議事録を展開する Claude Code ルーティン",
+  "scripts": {
+    "build:minutes": "node .claude/skills/hospital-minutes/scripts/build_minutes.js"
+  },
+  "dependencies": {
+    "docx": "^9.5.0"
+  }
+}
