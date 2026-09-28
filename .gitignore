@@ -1,0 +1,6 @@
+node_modules/
+*.docx
+*.pdf
+page-*.jpg
+content.json
+.env
